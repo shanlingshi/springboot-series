@@ -1,4 +1,5 @@
 # springboot 集成 mongodb （使用事务 | 读写分离）
+事务个读写分离都需要副本集模式才能使用，副本集搭建参考我的文章：[Linux 之 MongoDB副本集安装与配置](https://blog.csdn.net/weixin_40863968/article/details/126631015)
 
 ## 配置mongodb数据源 application.properties
 ```properties
